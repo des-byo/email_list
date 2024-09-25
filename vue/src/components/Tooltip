@@ -1,0 +1,16 @@
+/* Tooltip styles */
+.tooltip {
+  position: fixed; /* Fixed position to keep tooltip in viewport */
+  top: 8px; /* Margin from the top */
+  right: 8px; /* Margin from the right */
+  padding: 8px 16px; /* Padding top and bottom, left and right */
+  background-color: #666; /* Background color */
+  color: #f0f0f0; /* Text color */
+  border-radius: 24px; /* Border radius */
+  display: flex; /* Flex display */
+  align-items: center; /* Center content vertically */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s; /* Transition for fade-in effect */
+  z-index: 9999; /* Ensure the tooltip is above other elements */
+}
